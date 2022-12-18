@@ -18,11 +18,7 @@ function cc(card) {
       break;
   }
 
-  if ((card === 7 || card === 8 || card === 9) && count == 0) {
-    return '0 Hold';
-  }
-
-  if (count < 0) {
+  if (count < 1) {
     return `${count} Hold`;
   }
 
